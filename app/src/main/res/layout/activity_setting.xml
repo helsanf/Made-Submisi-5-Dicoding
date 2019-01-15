@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SettingActivity"
+    android:orientation="vertical">
+    <Switch
+        android:id="@+id/reminderHarian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Reminder Movie Day"
+        android:layout_marginTop="17dp"
+        android:textSize="17sp" />
+
+    <Switch
+        android:id="@+id/reminderRelease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Reminder Release Movie"
+        android:layout_marginTop="17dp"
+        android:textSize="17sp" />
+</LinearLayout>

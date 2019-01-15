@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FavoriteApp</string>
+    <string name="detail">detail</string>
+    <string name="share">share</string>
+    <string name="titik">....</string>
+
+</resources>
